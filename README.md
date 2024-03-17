@@ -5,7 +5,7 @@ Learning Raylib was my main goal, but I was also interested in providing clean c
 
 ### How to Run It
 From the root folder, compile using
-```make```
+```make``` (Makefile provided by ChatGPT!)
 
 To run the game itself:
 ```./bin/breakout```
