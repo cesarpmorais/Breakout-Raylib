@@ -13,6 +13,11 @@ void Player::update_position(int xIncrement) {
         this->posX = GameConfig::SCREEN_WIDTH - this->width;
 }
 
+void Player::return_to_start() {
+    this->posX = GameConfig::SCREEN_WIDTH/2 - width/2;
+    this->posY = 7*GameConfig::SCREEN_HEIGHT/8;
+}
+
 Coordinates Player::get_coordinates() {
     return Coordinates(this->posX, this->posY);
 }

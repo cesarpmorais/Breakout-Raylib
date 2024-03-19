@@ -67,6 +67,14 @@ void Ball::increase_speed() {
         speedY--;
 }
 
+void Ball::return_to_start() {
+    this->centerX = GameConfig::SCREEN_WIDTH/2;
+    this->centerY = 7*GameConfig::SCREEN_HEIGHT/8 - 20;
+
+    this->speedX = 0;
+    this->speedY = 2;
+}
+
 int Ball::get_y_coordinate() {
     return this->centerY - this->radius;
 }

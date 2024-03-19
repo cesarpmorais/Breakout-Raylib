@@ -16,6 +16,7 @@ class Player {
     public:
         void draw_player();
         void update_position(int xIncrement);
+        void return_to_start();
 
         Coordinates get_coordinates();
         int get_width();

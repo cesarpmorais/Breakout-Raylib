@@ -26,4 +26,8 @@ bool Brick::is_active() {
     return this->active;
 }
 
+void Brick::set_to_active() {
+    this->active = true;
+}
+
 Brick::~Brick() {}

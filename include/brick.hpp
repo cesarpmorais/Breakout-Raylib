@@ -14,6 +14,7 @@ class Brick {
         int posX = GameConfig::SCREEN_WIDTH/2 - 40;
         int posY = 4*GameConfig::SCREEN_HEIGHT/8;
         bool active = true;
+        
     public:
         Brick() {}
         void draw_brick();
@@ -23,7 +24,9 @@ class Brick {
 
         Coordinates get_coordinates();
         int get_width();
+
         bool is_active();
+        void set_to_active();
 
         ~Brick();
 };

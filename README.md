@@ -13,5 +13,5 @@ To run the game itself:
 Raylib must be installed for it to compile.
 
 ### To-do
-- __Game Screens__: Start Screen/Game Over/Game Completed;
+- <s>__Game Screens__: Start Screen/Game Over/Game Completed</s>;
 - __Improve Gameplay Experience__: Speed increase and direction changes could use some fine-tuning.

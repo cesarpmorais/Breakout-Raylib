@@ -26,6 +26,7 @@ class Ball {
         
         void change_direction();
         void increase_speed();
+        void return_to_start();
 
         int get_y_coordinate();
 };
